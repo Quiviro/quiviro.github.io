@@ -92,7 +92,8 @@ nav {
   background-repeat: no-repeat;
 }
 
-header nav + img {
+header img {
+  margin-top: 2em;
   border-radius: 50%;
 }
 
@@ -125,7 +126,7 @@ main > article:nth-of-type(even) {
 }
 
 article:nth-of-type(odd) .icono,
-footer a:nth-of-type(odd) {
+footer a.destacado:nth-of-type(odd) {
   color: #f44336;
 }
 
@@ -165,6 +166,24 @@ footer .destacado:nth-of-type(odd):hover {
 }
 footer .destacado:nth-of-type(even):hover {
   background-color: black;
+}
+
+footer a
+{
+  text-decoration: none;
+}
+footer p a {
+  color: #fff;
+  padding: 4px 8px;
+  margin: 4px;
+  display: inline-block;
+  border-radius: 8px;
+}
+footer p a:nth-of-type(even) {
+  background: red;
+}
+footer p a:nth-of-type(odd) {
+  background: black;
 }
 
 
